@@ -1,12 +1,12 @@
 # dotfiles
 Just Dotfiles
 
-### `/atom`
+### `/atom` [+](atom)
 My atom setup. Settings, packages etc.
 
 
-### `/bash`
-My atom setup. Settings, packages etc.
+### `/bash` [+](bash)
+Bash profile with git autocompletion and more.
 
 
 ### `/fonts`

@@ -12,20 +12,18 @@
 
 }
 
-/* style the background and foreground colors on the atom-text-editor-element
-itself */
+// style the background and foreground colors on the atom-text-editor-element itself
 atom-text-editor {
 
 }
 
-/* To style other content in the text editor's shadow DOM, use the ::shadow
-expression */
+// To style other content in the text editor's shadow DOM, use the ::shadow expression
 atom-text-editor::shadow .cursor {
 
 }
 
 atom-text-editor::shadow {
-    /* Set margin between gutter and code */
+    // Set margin between gutter and code
     .gutter {
         margin-right: 10px;
     }
@@ -33,7 +31,7 @@ atom-text-editor::shadow {
 
 atom-text-editor .vertical-scrollbar,
 atom-text-editor::shadow .vertical-scrollbar {
-    /* Hide the scrollbar - Use minimap */
+    // Hide the scrollbar - Use minimap
     opacity: 0;
     width: 0;
 }
