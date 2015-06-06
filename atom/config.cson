@@ -6,6 +6,16 @@
       "one-dark-ui"
       "monokai"
     ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "*.pyc"
+      "__pycache__"
+    ]
     disabledPackages: [
       "wrap-guide"
     ]
@@ -26,14 +36,13 @@
   "one-dark-ui":
     layoutMode: "Compact"
   pigments:
-    {}
-  "sync-settings":
-    {}
+    mergeColorDuplicates: true
   tabs:
     showIcons: true
   minimap:
     plugins:
       "git-diff": true
+      "find-and-replace": true
   "linter-jshint":
     {}
   jshint:
@@ -41,8 +50,6 @@
   "linter-jsxhint":
     {}
   react:
-    {}
-  "merge-conflicts":
     {}
   "symbols-tree-view":
     autoToggle: true
