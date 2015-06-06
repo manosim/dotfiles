@@ -9,5 +9,5 @@ My atom setup. Settings, packages etc.
 Bash profile with git autocompletion and more.
 
 
-### `/fonts`
+### `/fonts` [+](fonts)
 A couple of fonts that can't do without.
