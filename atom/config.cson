@@ -1,0 +1,52 @@
+"*":
+  "exception-reporting":
+    userId: "e0e0faf8-e46d-39e1-a386-f78085fcbe5f"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+    disabledPackages: [
+      "wrap-guide"
+    ]
+    projectHome: "/Users/Manos/Projects"
+  editor:
+    invisibles:
+      {}
+    fontFamily: "Source Code Pro"
+    lineHeight: 1.425
+    showIndentGuide: true
+    fontSize: 12
+  linter:
+    ignoredLinterErrors: [
+      "flake8"
+    ]
+  "linter-csslint":
+    {}
+  "one-dark-ui":
+    layoutMode: "Compact"
+  pigments:
+    {}
+  "sync-settings":
+    {}
+  tabs:
+    showIcons: true
+  minimap:
+    plugins:
+      "git-diff": true
+  "linter-jshint":
+    {}
+  jshint:
+    supportLintingJsx: true
+  "linter-jsxhint":
+    {}
+  react:
+    {}
+  "merge-conflicts":
+    {}
+  "symbols-tree-view":
+    autoToggle: true
+  "git-projects":
+    rootPath: "/Users/Manos/Projects"
