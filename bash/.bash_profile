@@ -5,7 +5,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # curl https://raw.githubusercontent.com/git/git/master/contrib/completion/.git-completion.bash -o ~/.git-completion.bash
 source ~/.git-completion.bash
 
-# curl https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
+# curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
 source ~/.git-prompt.sh
 
 GIT_PS1_SHOWDIRTYSTATE=true
