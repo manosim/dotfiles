@@ -1,5 +1,6 @@
 # Atom - Packages
 
+- atom-bootstrap3
 - autocomplete-paths
 - color-picker
 - css-edit-groups
