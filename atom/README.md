@@ -16,3 +16,4 @@
 - monokai
 - pigments
 - react
+- less than slash
