@@ -1,6 +1,5 @@
-export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
+export PATH=${PATH}:~/usr/local/bin
 export PATH=${PATH}:/Applications/MAMP/Library/bin/mysql
-export PATH="/usr/local/heroku/bin:$PATH"
 
 # curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 source ~/.git-completion.bash
