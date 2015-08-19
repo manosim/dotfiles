@@ -53,5 +53,7 @@
     {}
   "symbols-tree-view":
     autoToggle: true
+  "file-icons":
+    onChanges: true
   "git-projects":
     rootPath: "/Users/Manos/Projects"
