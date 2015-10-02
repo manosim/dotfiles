@@ -15,6 +15,5 @@
 - minimap-find-and-replace
 - minimap-git-diff
 - monokai
-- pigments
 - react
 - less than slash
