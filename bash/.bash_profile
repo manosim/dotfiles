@@ -1,5 +1,33 @@
+# Alias-es
+alias l="ls -la"
+
+
+# Catfish
+ctp() {
+  if [[ $@ == "start" ]]; then
+      command ctf project start
+  elif [[ $@ == "stop" ]]; then
+      command ctf project stop
+  elif [[ $@ == "restart" ]]; then
+      command ctf project restart
+  elif [[ $@ == "status" ]]; then
+      command ctf project status
+  elif [[ $@ == "stop" ]]; then
+      command ctf project stop
+  elif [[ $@ == "logs" ]]; then
+      command ctf project logs
+  elif [[ $@ == "shell" ]]; then
+      command ctf project run -- python manage.py shell
+  else
+      command ctf project "$@"
+  fi
+}
+
 export PATH=${PATH}:~/usr/local/bin
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
 export PATH=${PATH}:/Applications/MAMP/Library/bin/mysql
+export ANDROID_HOME=/usr/local/opt/android-sdk
+export REACT_EDITOR="atom" # Add atom to REACT_EDITOR for scriptin
 
 # curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 source ~/.git-completion.bash
