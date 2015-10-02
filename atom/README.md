@@ -10,6 +10,7 @@
 - linter
 - linter-csslint
 - linter-flake8
+- linter-eslint
 - minimap
 - minimap-find-and-replace
 - minimap-git-diff
