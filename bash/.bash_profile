@@ -1,7 +1,6 @@
 # Alias-es
 alias l="ls -la"
 
-
 # Catfish
 ctp() {
   if [[ $@ == "start" ]]; then
@@ -28,6 +27,13 @@ export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
 export PATH=${PATH}:/Applications/MAMP/Library/bin/mysql
 export ANDROID_HOME=/usr/local/opt/android-sdk
 export REACT_EDITOR="atom" # Add atom to REACT_EDITOR for scriptin
+
+# NVM
+
+export NVM_DIR="/Users/Manos/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Git Autocomplete & Prompt
 
 # curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 source ~/.git-completion.bash
