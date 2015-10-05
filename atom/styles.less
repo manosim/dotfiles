@@ -22,16 +22,15 @@ atom-text-editor::shadow .cursor {
 
 }
 
-atom-text-editor::shadow {
-    // Set margin between gutter and code
-    .gutter {
-        margin-right: 10px;
-    }
+
+atom-text-editor::shadow .scroll-view {
+  // Add padding to main text area
+  padding-left: 10px;
 }
 
-atom-text-editor .vertical-scrollbar,
 atom-text-editor::shadow .vertical-scrollbar {
-    // Hide the scrollbar - Use minimap
-    opacity: 0;
-    width: 0;
+  // Hide the scrollbar - Use minimap
+  opacity: 0;
+  width: 0;
 }
+
