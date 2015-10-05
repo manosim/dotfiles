@@ -1,6 +1,19 @@
 "*":
   welcome:
     showOnStartup: false
+  minimap:
+    plugins:
+      "git-diff": true
+      "find-and-replace": true
+  editor:
+    invisibles: {}
+    fontFamily: "Source Code Pro"
+    lineHeight: 1.425
+    showIndentGuide: true
+    fontSize: 12
+  "linter-flake8":
+    executablePath: "/usr/local/bin/flake8"
+  react: {}
   core:
     themes: [
       "one-dark-ui"
@@ -20,40 +33,10 @@
       "wrap-guide"
     ]
     projectHome: "/Users/Manos/Projects"
-  editor:
-    invisibles:
-      {}
-    fontFamily: "Source Code Pro"
-    lineHeight: 1.425
-    showIndentGuide: true
-    fontSize: 12
-  linter:
-    ignoredLinterErrors: [
-      "flake8"
-    ]
-  "linter-csslint":
-    {}
-  "one-dark-ui":
-    layoutMode: "Compact"
-  pigments:
-    mergeColorDuplicates: true
-  tabs:
-    showIcons: true
-  minimap:
-    plugins:
-      "git-diff": true
-      "find-and-replace": true
-  "linter-jshint":
-    {}
-  jshint:
-    supportLintingJsx: true
-  "linter-jsxhint":
-    {}
-  react:
-    {}
-  "symbols-tree-view":
-    autoToggle: true
   "file-icons":
     onChanges: true
-  "git-projects":
-    rootPath: "/Users/Manos/Projects"
+  jshint:
+    onlyConfig: true
+    supportLintingJsx: true
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
