@@ -40,3 +40,5 @@
     supportLintingJsx: true
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
+  "tree-view":
+    hideIgnoredNames: true
