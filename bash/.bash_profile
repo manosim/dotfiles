@@ -17,6 +17,8 @@ ctp() {
       command ctf project logs
   elif [[ $@ == "shell" ]]; then
       command ctf project run -- python manage.py shell
+  elif [[ $@ == "migrate" ]]; then
+      command ctf project run -- python manage.py migrate
   else
       command ctf project "$@"
   fi
