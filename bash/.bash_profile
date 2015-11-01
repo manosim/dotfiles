@@ -1,7 +1,9 @@
 # Alias-es
+
 alias l="ls -la"
 
 # Catfish
+
 ctp() {
   if [[ $@ == "start" ]]; then
       command ctf project start
@@ -31,7 +33,8 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 export ANDROID_HOME=/usr/local/opt/android-sdk
 export REACT_EDITOR="atom" # Add atom to REACT_EDITOR for scriptin
 
-# GitHub Personal Token
+# GitHub Personal Token (Mostly - Catfish)
+
 if [ -f ~/.github_token ]; then
     export GITHUB_TOKEN=`cat ~/.github_token`
 fi
