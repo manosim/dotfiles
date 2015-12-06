@@ -5,7 +5,6 @@
 - color-picker
 - css-edit-groups
 - file-icons
-- git-projects
 - jshint
 - linter
 - linter-csslint
