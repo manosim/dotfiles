@@ -1,6 +1,7 @@
 # Alias-es
 
 alias l="ls -la"
+alias h="heroku"
 
 # Catfish
 
@@ -30,8 +31,9 @@ export PATH=${PATH}:~/usr/local/bin
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
 export PATH=$PATH:/Applications/MAMP/Library/bin/mysql
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
-export ANDROID_HOME=/usr/local/opt/android-sdk
+export ANDROID_HOME=/usr/local/Cellar/android-sdk/24.4/
 export REACT_EDITOR="atom" # Add atom to REACT_EDITOR for scriptin
+
 
 # GitHub Personal Token (Mostly - Catfish)
 
@@ -39,10 +41,12 @@ if [ -f ~/.github_token ]; then
     export GITHUB_TOKEN=`cat ~/.github_token`
 fi
 
+
 # NVM
 
 export NVM_DIR="/Users/Manos/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
 
 # Git Autocomplete & Prompt
 
@@ -71,7 +75,7 @@ function set_git_branch() {
   GIT_PS1_SHOWUNTRACKEDFILES=true
   GIT_PS1_SHOWCOLORHINTS=true
   GIT_PS1_SHOWUPSTREAM="auto"
-  BRANCH="${PURPLE}$(__git_ps1)${COLOR_NONE} "
+  BRANCH="${PURPLE}$(__git_ps1)${COLOR_NONE}"
 }
 
  
@@ -80,14 +84,14 @@ function set_virtualenv () {
   if test -z "$VIRTUAL_ENV" ; then
       PYTHON_VIRTUALENV=""
   else
-      PYTHON_VIRTUALENV="${BLUE}[`basename \"$VIRTUAL_ENV\"`]${COLOR_NONE} "
+      PYTHON_VIRTUALENV="${BLUE}[`basename \"$VIRTUAL_ENV\"`]"
   fi
 }
  
 
 # Set the full bash prompt.
 function set_bash_prompt () {
-  PROMPT_SYMBOL="\$"
+  PROMPT_SYMBOL="\n> "
  
   # Set the PYTHON_VIRTUALENV variable.
   set_virtualenv
@@ -96,7 +100,7 @@ function set_bash_prompt () {
   set_git_branch
 
   # Set the bash prompt variable.
-  PS1="${PYTHON_VIRTUALENV}${GREEN}Manos${COLOR_NONE}: ${YELLOW}\w${COLOR_NONE}${BRANCH}${PROMPT_SYMBOL} "
+  PS1="${LIGHT_GREEN}\u@\h${COLOR_NONE} ${YELLOW}\w ${PYTHON_VIRTUALENV}${COLOR_NONE}${BRANCH}${PROMPT_SYMBOL}"
 }
  
 
