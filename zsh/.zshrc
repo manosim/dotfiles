@@ -61,6 +61,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 
 alias h="heroku"
+alias enva="source env/bin/activate"
 
 ctp() {
   if [[ $@ == "start" ]]; then
