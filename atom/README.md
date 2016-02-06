@@ -5,11 +5,14 @@
 - color-picker
 - css-edit-groups
 - file-icons
+- git-projects
 - jshint
+- less-than-slash
 - linter
 - linter-csslint
-- linter-flake8
 - linter-eslint
+- linter-flake8
+- merge-conflicts
 - minimap
 - minimap-find-and-replace
 - minimap-git-diff
