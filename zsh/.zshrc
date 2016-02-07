@@ -63,6 +63,10 @@ source $ZSH/oh-my-zsh.sh
 alias h="heroku"
 alias enva="source env/bin/activate"
 
+alias ni="npm install"
+alias ns="npm start"
+alias nt="npm test"
+
 ctp() {
   if [[ $@ == "start" ]]; then
       command ctf project start
