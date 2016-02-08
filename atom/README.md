@@ -18,4 +18,3 @@
 - minimap-git-diff
 - monokai
 - react
-- less than slash
