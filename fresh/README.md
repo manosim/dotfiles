@@ -28,7 +28,9 @@ Install using [NVM](https://github.com/creationix/nvm).
 - [ ] Spotify
 - [ ] The Unarchiver (App Store)
 - [ ] VLC Media Player [+](http://www.videolan.org/)
+
 ---
+
 - [ ] Alcatraz Package Manager [+](http://alcatraz.io/)
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
 - [ ] Atom Text Editor [+](http://www.atom.io/)
@@ -45,7 +47,9 @@ Install using [NVM](https://github.com/creationix/nvm).
 - [ ] Postgres App [+](http://postgresapp.com/)
 - [ ] XCode: GitDiff Plugin (Alcatraz)
 - [ ] XCode: Monokai Theme (Alcatraz)
+
 ---
+
 - [ ] Oh my ZSH [+](https://github.com/robbyrussell/oh-my-zsh)
 
 
