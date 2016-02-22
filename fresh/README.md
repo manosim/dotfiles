@@ -10,9 +10,10 @@
 ### Node & NPM
 Install using [NVM](https://github.com/creationix/nvm).
 
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
-    nvm install 4.2
-    nvm alias default 4.2
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+    nvm install 4
+    nvm install 5
+    nvm alias default 4
 
 
 ### Software (Personal & Work)
@@ -39,7 +40,7 @@ Install using [NVM](https://github.com/creationix/nvm).
 - [ ] Dropbox [+](https://dropbox.com/)
 - [ ] Gitify
 - [ ] Github for Mac [+](http://mac.github.com/)
-- [ ] iTerm [+](https://www.iterm2.com/)
+- [ ] iTerm (with [Meslo Font](https://github.com/andreberg/Meslo-Font)) [+](https://www.iterm2.com/)
 - [ ] Slack [+](https://slack.com/)
 - [ ] SnippetsLab (App Store, Code Snippet Manager)
 - [ ] Skype [+](https://skype.com/)
@@ -57,7 +58,7 @@ Install using [NVM](https://github.com/creationix/nvm).
 
 - [ ] Adobe Photoshop
 - [ ] CSV Edit (App Store)
-- [ ] Freckle (App Store)
+- [ ] Daily - Time Tracking (App Store)
 - [ ] HipChat [+](http://www.hipchat.com/)
 - [ ] MAMP [+](http://www.mamp.info/)
 
