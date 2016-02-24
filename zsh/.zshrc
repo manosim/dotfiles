@@ -44,7 +44,7 @@ plugins=(git npm pip)
 export PATH=${PATH}:~/usr/local/bin
 export PATH=${PATH}:~/usr/local/bin/mysql
 export PATH=${PATH}:/Applications/MAMP/Library/bin/mysql
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
 export ANDROID_HOME=/usr/local/opt/android-sdk
 export ANDROID_SDK=/usr/local/opt/android-sdk
@@ -66,6 +66,8 @@ alias enva="source env/bin/activate"
 alias ni="npm install"
 alias ns="npm start"
 alias nt="npm test"
+
+alias nvmc="nvm current"
 
 ctp() {
   if [[ $@ == "start" ]]; then
