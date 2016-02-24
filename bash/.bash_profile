@@ -35,7 +35,7 @@ ctp() {
 export PATH=${PATH}:~/usr/local/bin
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
 export PATH=$PATH:/Applications/MAMP/Library/bin/mysql
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export ANDROID_HOME=/usr/local/Cellar/android-sdk/24.4/
 export REACT_EDITOR="atom" # Add atom to REACT_EDITOR for scriptin
 
