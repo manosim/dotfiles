@@ -69,4 +69,5 @@ Install using [NVM](https://github.com/creationix/nvm).
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
     # Install Specifics
-    brew install android-sdk watchman python3 redis
+    brew update
+    brew install android-sdk watchman python3 redis xctool
