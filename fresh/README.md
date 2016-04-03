@@ -20,7 +20,7 @@ Install using [NVM](https://github.com/creationix/nvm).
 
 - [ ] 1Password (App Store)
 - [ ] Airmail 2 (App Store)
-- [ ] Better Touch Tool [+](http://www.bettertouchtool.net/)
+- [ ] Magnet (App Store)
 - [ ] Clear (App Store)
 - [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
 - [ ] Keynote (App Store)
