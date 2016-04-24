@@ -36,7 +36,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git npm pip)
+plugins=(git)
 
 
 # Exports - User configuration
@@ -65,6 +65,8 @@ alias enva="source env/bin/activate"
 
 alias ni="npm install"
 alias ns="npm start"
+alias nb="npm run build"
+alias nw="npm run watch"
 alias nt="npm test"
 
 alias nvmc="nvm current"
