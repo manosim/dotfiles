@@ -99,19 +99,3 @@ ctp() {
 if [ -f ~/.github_token ]; then
     export GITHUB_TOKEN=`cat ~/.github_token`
 fi
-
-
-# NVM
-
-export NVM_DIR="/Users/Manos/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-
-# # Virtualenv: current working virtualenv
-#
-# prompt_virtualenv() {
-#   local virtualenv_path="$VIRTUAL_ENV"
-#   if [[ -n $virtualenv_path ]]; then
-#     prompt_segment green black " $(basename $virtualenv_path)"
-#   fi
-# }
