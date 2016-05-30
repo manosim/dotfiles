@@ -1,7 +1,9 @@
 # Sublime Text - Packages
 
 - All AutoComplete
+- AutoFileName
 - Babel
+- Babel Snippets
 - ColorPicker
 - CSSEdit Group Support
 - LESS

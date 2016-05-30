@@ -8,5 +8,6 @@
 		"Vintage"
 	],
 	"tab_size": 4,
-	"theme": "Oceanic Next.sublime-theme"
+	"theme": "Oceanic Next.sublime-theme",
+	"ensure_newline_at_eof_on_save": true
 }
