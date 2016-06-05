@@ -50,7 +50,7 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 export ANDROID_SDK=/usr/local/opt/android-sdk
 export ANDROID_NDK=/usr/local/opt/android-ndk
 
-export REACT_EDITOR="atom" # Add atom to REACT_EDITOR for scriptin
+export REACT_EDITOR="subl" # Add Sublimt Text to REACT_EDITOR for scriptin
 
 
 # Exports - User configuration
