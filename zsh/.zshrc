@@ -50,7 +50,7 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 export ANDROID_SDK=/usr/local/opt/android-sdk
 export ANDROID_NDK=/usr/local/opt/android-ndk
 
-export REACT_EDITOR="atom" # Add atom to REACT_EDITOR for scriptin
+export REACT_EDITOR="subl" # Add Sublimt Text to REACT_EDITOR for scriptin
 
 
 # Exports - User configuration
@@ -99,19 +99,3 @@ ctp() {
 if [ -f ~/.github_token ]; then
     export GITHUB_TOKEN=`cat ~/.github_token`
 fi
-
-
-# NVM
-
-export NVM_DIR="/Users/Manos/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-
-# # Virtualenv: current working virtualenv
-#
-# prompt_virtualenv() {
-#   local virtualenv_path="$VIRTUAL_ENV"
-#   if [[ -n $virtualenv_path ]]; then
-#     prompt_segment green black " $(basename $virtualenv_path)"
-#   fi
-# }

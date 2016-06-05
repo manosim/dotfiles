@@ -1,3 +1,6 @@
+> Currently not up to date - Using Sublime Text.
+
+
 # Atom - Packages
 
 - atom-bootstrap3
