@@ -13,5 +13,6 @@
 		"Vintage"
 	],
 	"tab_size": 4,
-	"theme": "Oceanic Next.sublime-theme"
+	"theme": "Oceanic Next.sublime-theme",
+  	"binary_file_patterns": ["node_modules/*", "collected-static/*", "env/'*", "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"]
 }
