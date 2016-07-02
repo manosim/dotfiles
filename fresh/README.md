@@ -32,6 +32,7 @@ Install using [NVM](https://github.com/creationix/nvm).
 
 ---
 
+- [ ] Alfred 3 [+](https://www.alfredapp.com/)
 - [ ] Alcatraz Package Manager [+](http://alcatraz.io/)
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
 - [ ] Atom Text Editor [+](http://www.atom.io/)
