@@ -10,7 +10,7 @@
 ### Node & NPM
 Install using [NVM](https://github.com/creationix/nvm).
 
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.4/install.sh | bash
     nvm install 4
     nvm install 5
     nvm alias default 4
@@ -19,14 +19,13 @@ Install using [NVM](https://github.com/creationix/nvm).
 ### Software (Personal & Work)
 
 - [ ] 1Password (App Store)
-- [ ] Airmail 2 (App Store)
+- [ ] Airmail (App Store)
 - [ ] Magnet (App Store)
 - [ ] Clear (App Store)
 - [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
 - [ ] Keynote (App Store)
 - [ ] Numbers (App Store)
 - [ ] Pages (App Store)
-- [ ] Spotify
 - [ ] The Unarchiver (App Store)
 - [ ] VLC Media Player [+](http://www.videolan.org/)
 
@@ -35,7 +34,6 @@ Install using [NVM](https://github.com/creationix/nvm).
 - [ ] Alfred 3 [+](https://www.alfredapp.com/)
 - [ ] Alcatraz Package Manager [+](http://alcatraz.io/)
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
-- [ ] Atom Text Editor [+](http://www.atom.io/)
 - [ ] Cyberduck
 - [ ] Daisy Disk (App Store)
 - [ ] Dropbox [+](https://dropbox.com/)
@@ -45,7 +43,8 @@ Install using [NVM](https://github.com/creationix/nvm).
 - [ ] Slack [+](https://slack.com/)
 - [ ] SnippetsLab (App Store, Code Snippet Manager)
 - [ ] Skype [+](https://skype.com/)
-- [ ] Paw (App Store)
+- [ ] Sublime Text [+](http://www.sublimetext.com/)
+- [ ] Paw [+](https://paw.cloud)
 - [ ] Postgres App [+](http://postgresapp.com/)
 - [ ] XCode: GitDiff Plugin (Alcatraz)
 - [ ] XCode: Monokai Theme (Alcatraz)
@@ -59,6 +58,7 @@ Install using [NVM](https://github.com/creationix/nvm).
 
 - [ ] Adobe Photoshop
 - [ ] CSV Edit (App Store)
+- [ ] XML Notepad
 - [ ] Daily - Time Tracking (App Store)
 - [ ] HipChat [+](http://www.hipchat.com/)
 - [ ] MAMP [+](http://www.mamp.info/)
@@ -71,4 +71,4 @@ Install using [NVM](https://github.com/creationix/nvm).
 
     # Install Specifics
     brew update
-    brew install android-sdk watchman python3 redis xctool
+    brew install android-sdk pyenv watchman redis xctool
