@@ -10,10 +10,9 @@
 ### Node & NPM
 Install using [NVM](https://github.com/creationix/nvm).
 
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.4/install.sh | bash
-    nvm install 4
-    nvm install 5
-    nvm alias default 4
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
+    nvm install 6
+    nvm alias default 6
 
 
 ### Software (Personal & Work)
@@ -28,6 +27,7 @@ Install using [NVM](https://github.com/creationix/nvm).
 - [ ] Pages (App Store)
 - [ ] The Unarchiver (App Store)
 - [ ] VLC Media Player [+](http://www.videolan.org/)
+- [ ] Wunderlist (App Store)
 
 ---
 
@@ -71,4 +71,4 @@ Install using [NVM](https://github.com/creationix/nvm).
 
     # Install Specifics
     brew update
-    brew install android-sdk pyenv watchman redis xctool
+    brew install android-sdk pyenv watchman redis
