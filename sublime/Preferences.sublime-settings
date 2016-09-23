@@ -1,7 +1,28 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
+	"binary_file_patterns":
+	[
+		"migrations",
+		"node_modules/*",
+		"collected-static/*",
+		"coverage/*",
+		"env/*",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Operator Mono",
+	"font_face": "Source Code Pro",
 	"font_options":
 	[
 		"no_round"
@@ -12,8 +33,11 @@
 	[
 		"Vintage"
 	],
+	"predawn_findreplace_small": true,
+	"predawn_sidebar_arrows": true,
+	"predawn_tabs_active_underline": true,
+	"predawn_tabs_medium": true,
 	"tab_size": 4,
-	"translate_tabs_to_spaces": true,
-	"theme": "Oceanic Next.sublime-theme",
-  	"binary_file_patterns": ["node_modules/*", "collected-static/*", "env/*", "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"]
+	"theme": "predawn-DEV.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
