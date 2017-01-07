@@ -7,6 +7,7 @@
 - ColorPicker
 - CSSEdit Group Support
 - Git Gutter
+- HyperClick
 - LESS
 - Oceanic Next Color Scheme
 - Sass
