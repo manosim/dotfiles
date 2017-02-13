@@ -1,22 +1,35 @@
 # Sublime Text - Packages
 
-- All AutoComplete
-- AutoFileName
-- Babel
-- Babel Snippets
-- ColorPicker
-- CSSEdit Group Support
-- Git Gutter
-- HyperClick
-- LESS
-- Oceanic Next Color Scheme
-- Sass
-- SidebarEnhancements
-- SublimeLinter
-- SublimeLinter-contrib-eslint
-- Sublime​Linter-contrib-sass-lint
-- SublimeLinter-csslint
-- SublimeLinter-flake8
+File: `/Users/manos/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings`
+
+```javascript
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"Babel",
+		"Babel Snippets",
+		"ColorPicker",
+		"CSSEdit Group support",
+		"GitGutter",
+		"HyperClick",
+		"LESS",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-flake8"
+	]
+}
+```
 
 
 ### Also
