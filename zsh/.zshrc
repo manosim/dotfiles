@@ -68,6 +68,7 @@ alias ns="npm start"
 alias nb="npm run build"
 alias nw="npm run watch"
 alias nt="npm test"
+alias nj="npm run jest"
 
 alias nvmc="nvm current"
 
