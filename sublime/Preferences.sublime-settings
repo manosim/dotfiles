@@ -20,14 +20,14 @@
 		"*.jar",
 		"*.zip"
 	],
-	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro",
 	"font_options":
 	[
 		"no_round"
 	],
-	"font_size": 14.0,
+	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -38,6 +38,6 @@
 	"predawn_tabs_active_underline": true,
 	"predawn_tabs_medium": true,
 	"tab_size": 4,
-	"theme": "predawn-DEV.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
