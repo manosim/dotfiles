@@ -1,13 +1,11 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/Manos/.oh-my-zsh
 
-DEFAULT_USER="Manos"
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 
 # ZSH_THEME="agnoster-custom"
-ZSH_THEME="agnoster"
+ZSH_THEME="bureau"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
@@ -46,9 +44,9 @@ export PATH=${PATH}:~/usr/local/bin/mysql
 export PATH=${PATH}:/Applications/MAMP/Library/bin/mysql
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
-export ANDROID_HOME=/usr/local/opt/android-sdk
-export ANDROID_SDK=/usr/local/opt/android-sdk
-export ANDROID_NDK=/usr/local/opt/android-ndk
+export ANDROID_HOME=~/Library/Android/sdk
+export ANDROID_SDK=~/Library/Android/sdk
+export ANDROID_SDK_ROOT=~/Library/Android/sdk
 
 export REACT_EDITOR="subl" # Add Sublimt Text to REACT_EDITOR for scriptin
 
