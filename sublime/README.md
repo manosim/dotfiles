@@ -25,6 +25,7 @@ File: `/Users/manos/Library/Application Support/Sublime Text 3/Packages/User/Pac
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-sass-lint",
 		"SublimeLinter-csslint",
 		"SublimeLinter-flake8"
 	]
