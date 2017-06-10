@@ -30,17 +30,13 @@
 	[
 		"no_round"
 	],
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"predawn_findreplace_small": true,
-	"predawn_sidebar_arrows": true,
-	"predawn_tabs_active_underline": true,
-	"predawn_tabs_medium": true,
-	"tab_size": 4,
+	"tab_size": 2,
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
