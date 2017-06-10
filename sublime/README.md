@@ -1,6 +1,6 @@
 # Sublime Text - Packages
 
-File: `/Users/manos/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings`
+File: `/Users/manos/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings`
 
 ```javascript
 {
@@ -18,8 +18,8 @@ File: `/Users/manos/Library/Application Support/Sublime Text 3/Packages/User/Pac
 		"CSSEdit Group support",
 		"GitGutter",
 		"HyperClick",
+		"JsPrettier",
 		"LESS",
-		"Oceanic Next Color Scheme",
 		"Package Control",
 		"Sass",
 		"SideBarEnhancements",
@@ -35,6 +35,6 @@ File: `/Users/manos/Library/Application Support/Sublime Text 3/Packages/User/Pac
 
 ### Also
 
-To launch Submit from the command line:
+To launch Submit from the command line (make sure `/usr/local/bin` exists):
 
 	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
