@@ -5,6 +5,7 @@
 		"node_modules/*",
 		"collected-static/*",
 		"coverage/*",
+		"htmlcov/*",
 		"build/*",
 		"dist/*",
 		"__snapshots__/*",
