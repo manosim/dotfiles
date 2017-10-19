@@ -91,12 +91,9 @@ export PATH=${PATH}:~/usr/local/bin
 export PATH=${PATH}:~/usr/local/bin/mysql
 export PATH=${PATH}:/Applications/MAMP/Library/bin/mysql
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
-export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="$HOME/.fastlane/bin:$PATH"
-
-export ANDROID_HOME=~/Library/Android/sdk
-export ANDROID_SDK=~/Library/Android/sdk
-export ANDROID_SDK_ROOT=~/Library/Android/sdk
+export PATH="$HOME/.yarn/bin:$PATH"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
 
 export REACT_EDITOR="subl" # Add Sublimt Text to REACT_EDITOR for scriptin
 
