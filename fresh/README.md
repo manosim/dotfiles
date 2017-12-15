@@ -7,14 +7,6 @@
 3. Install Command Line Developer Tools [+](https://developer.apple.com/downloads/)
 
 
-### Node & NPM
-Install using [NVM](https://github.com/creationix/nvm).
-
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
-    nvm install 6
-    nvm alias default 6
-
-
 ### Software (Personal & Work)
 
 - [ ] 1Password (App Store)
@@ -26,23 +18,17 @@ Install using [NVM](https://github.com/creationix/nvm).
 - [ ] Numbers (App Store)
 - [ ] Pages (App Store)
 - [ ] The Unarchiver (App Store)
-- [ ] VLC Media Player [+](http://www.videolan.org/)
 - [ ] Wunderlist (App Store)
 
 ---
 
-- [ ] Alfred 3 [+](https://www.alfredapp.com/)
-- [ ] Alcatraz Package Manager [+](http://alcatraz.io/)
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
 - [ ] Cyberduck
 - [ ] Daisy Disk (App Store)
 - [ ] Dropbox [+](https://dropbox.com/)
 - [ ] Gitify
-- [ ] Github for Mac [+](http://mac.github.com/)
+- [ ] Github Desktop [+](https://desktop.github.com/)
 - [ ] iTerm (with [Meslo Font](https://github.com/andreberg/Meslo-Font)) [+](https://www.iterm2.com/)
-- [ ] Slack [+](https://slack.com/)
-- [ ] SnippetsLab (App Store, Code Snippet Manager)
-- [ ] Skype [+](https://skype.com/)
 - [ ] Sublime Text [+](http://www.sublimetext.com/)
 - [ ] Paw [+](https://paw.cloud)
 - [ ] Postgres App [+](http://postgresapp.com/)
@@ -60,8 +46,26 @@ Install using [NVM](https://github.com/creationix/nvm).
 - [ ] CSV Edit (App Store)
 - [ ] XML Notepad
 - [ ] Daily - Time Tracking (App Store)
-- [ ] HipChat [+](http://www.hipchat.com/)
+- [ ] Slack [+](https://slack.com/)
 - [ ] MAMP [+](http://www.mamp.info/)
+
+
+### Oh my zsh
+
+    xcode-select --install
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+    touch ~/.zprofile
+    touch ~/.github_token
+
+
+### NVM
+
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
+    nvm install 8
+    npm install -g react-native-cli
+    curl -o- -L https://yarnpkg.com/install.sh | bash
 
 
 ### Homebrew
@@ -71,4 +75,12 @@ Install using [NVM](https://github.com/creationix/nvm).
 
     # Install Specifics
     brew update
-    brew install android-sdk pyenv watchman redis
+    brew install htop
+    brew install redis
+    brew install pyenv
+    brew install watchman
+    brew cask install java
+    brew cask install android-platform-tools
+    brew cask install facebook-ios-sdk
+    brew cask install fastlane
+    brew install getsentry/tools/sentry-cli
