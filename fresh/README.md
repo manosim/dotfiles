@@ -12,11 +12,11 @@
 - [ ] 1Password (App Store)
 - [ ] Airmail (App Store)
 - [ ] Magnet (App Store)
-- [ ] Clear (App Store)
 - [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
 - [ ] Keynote (App Store)
 - [ ] Numbers (App Store)
 - [ ] Pages (App Store)
+- [ ] Spotify [+](http://www.spotify.com/)
 - [ ] The Unarchiver (App Store)
 - [ ] Wunderlist (App Store)
 
@@ -32,8 +32,6 @@
 - [ ] Sublime Text [+](http://www.sublimetext.com/)
 - [ ] Paw [+](https://paw.cloud)
 - [ ] Postgres App [+](http://postgresapp.com/)
-- [ ] XCode: GitDiff Plugin (Alcatraz)
-- [ ] XCode: Monokai Theme (Alcatraz)
 
 ---
 
@@ -42,7 +40,6 @@
 
 ### Software (Work)
 
-- [ ] Adobe Photoshop
 - [ ] CSV Edit (App Store)
 - [ ] XML Notepad
 - [ ] Daily - Time Tracking (App Store)
@@ -64,7 +61,7 @@
 
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
     nvm install 8
-    npm install -g react-native-cli
+    npm install -g react-native-cli react-devtools
     curl -o- -L https://yarnpkg.com/install.sh | bash
 
 
@@ -79,7 +76,7 @@
     brew install redis
     brew install pyenv
     brew install watchman
-    brew cask install java
+    brew cask install java # brew cask install caskroom/versions/java8
     brew cask install android-platform-tools
     brew cask install facebook-ios-sdk
     brew cask install fastlane
