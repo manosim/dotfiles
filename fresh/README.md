@@ -24,6 +24,7 @@
 
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
 - [ ] Cyberduck
+- [ ] Daily - Time Tracking (App Store)
 - [ ] Daisy Disk (App Store)
 - [ ] Dropbox [+](https://dropbox.com/)
 - [ ] Gitify
@@ -32,20 +33,11 @@
 - [ ] Sublime Text [+](http://www.sublimetext.com/)
 - [ ] Paw [+](https://paw.cloud)
 - [ ] Postgres App [+](http://postgresapp.com/)
+- [ ] Slack [+](https://slack.com/)
 
 ---
 
 - [ ] Oh my ZSH [+](https://github.com/robbyrussell/oh-my-zsh)
-
-
-### Software (Work)
-
-- [ ] CSV Edit (App Store)
-- [ ] XML Notepad
-- [ ] Daily - Time Tracking (App Store)
-- [ ] Slack [+](https://slack.com/)
-- [ ] MAMP [+](http://www.mamp.info/)
-
 
 ### Oh my zsh
 
@@ -59,8 +51,8 @@
 
 ### NVM
 
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
-    nvm install 8
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+    nvm install 6
     npm install -g react-native-cli react-devtools
     curl -o- -L https://yarnpkg.com/install.sh | bash
 
@@ -74,10 +66,13 @@
     brew update
     brew install htop
     brew install redis
+    brew install mysql
     brew install pyenv
     brew install watchman
-    brew cask install java # brew cask install caskroom/versions/java8
+    brew install heroku/brew/heroku
+    brew install getsentry/tools/sentry-cli
+
     brew cask install android-platform-tools
     brew cask install facebook-ios-sdk
     brew cask install fastlane
-    brew install getsentry/tools/sentry-cli
+    brew cask install keepingyouawake
