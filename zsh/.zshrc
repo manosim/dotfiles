@@ -2,12 +2,19 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=/Users/manos/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="bureau"
+
+# Set list of themes to load
+# Setting this variable when ZSH_THEME=random
+# cause zsh load theme from this variable instead of
+# looking in ~/.oh-my-zsh/themes/
+# An empty array have no effect
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -84,16 +91,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
 # Exports - User configuration
 
-export PATH=${PATH}:~/usr/local/bin
-export PATH=${PATH}:~/usr/local/bin/mysql
-export PATH=${PATH}:/Applications/MAMP/Library/bin/mysql
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+export PATH=${PATH}:/usr/local/bin/mysql
+export PATH="$HOME/.pyenv/bin:$PATH"
 export PATH="$HOME/.fastlane/bin:$PATH"
-export PATH="$HOME/.yarn/bin:$PATH"
-export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+# export ANDROID_HOME="$HOME/Library/Android/sdk"
 
 export REACT_EDITOR="subl" # Add Sublimt Text to REACT_EDITOR for scriptin
 
@@ -111,6 +117,11 @@ alias nt="npm test"
 alias nj="npm run jest"
 
 alias nvmc="nvm current"
+
+
+# Catfish
+export CATFISH_HOSTNAME_OVERRIDE="localhost"
+alias catfish-start="~/Projects/catfish/start.command"
 
 ctp() {
   if [[ $@ == "start" ]]; then
