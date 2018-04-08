@@ -93,13 +93,15 @@ source $ZSH/oh-my-zsh.sh
 
 # Exports - User configuration
 
+export ANDROID_HOME=$HOME/Library/Android/sdk
+
 export PATH=${PATH}:/usr/local/bin/mysql
 export PATH="$HOME/.pyenv/bin:$PATH"
 export PATH="$HOME/.fastlane/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
-
-# export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export REACT_EDITOR="subl" # Add Sublimt Text to REACT_EDITOR for scriptin
 
