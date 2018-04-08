@@ -24,7 +24,7 @@
 		"*.jar",
 		"*.zip"
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro",
 	"font_options":

@@ -1,12 +1,6 @@
 # dotfiles
 Just Dotfiles
 
-### `/atom` [+](atom)
-(Not up to date - Currently Using Sublime Text) Atom setup. Settings, packages etc.
-
-### `/bash` [+](bash)
-Bash profile with git autocompletion and more.
-
 ### `/fonts` [+](fonts)
 A couple of fonts that can't do without.
 
