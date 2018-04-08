@@ -120,6 +120,8 @@ alias nj="npm run jest"
 
 alias nvmc="nvm current"
 
+alias emulator="/Users/manos/Library/Android/sdk/tools/emulator @Nexus4"
+
 
 # Catfish
 export CATFISH_HOSTNAME_OVERRIDE="localhost"
