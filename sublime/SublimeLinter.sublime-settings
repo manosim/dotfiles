@@ -6,11 +6,13 @@
         "windows": []
     },
     "linters": {
-        "somelinter": {
+        "flake8": {
             "disable": false,
-            "args": [],
+            "args": [
+                "--ignore=E128,E501"
+            ],
             "excludes": [],
-            "ignore": "E501,E128"
+            "ignore": ""
         }
     }
 }
