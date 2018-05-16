@@ -1,4 +1,5 @@
 {
+  "node_path": "/Users/manos/.nvm/versions/node/v6.14.1/bin/node",
   "auto_format_on_save": true,
   "auto_format_on_save_excludes": [
     "*/node_modules/*",
