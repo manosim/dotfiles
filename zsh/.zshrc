@@ -95,15 +95,9 @@ source $ZSH/oh-my-zsh.sh
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
 
-export PATH=${PATH}:/usr/local/bin/mysql
-export PATH="$HOME/.pyenv/bin:$PATH"
-export PATH="$HOME/.fastlane/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-export REACT_EDITOR="subl" # Add Sublimt Text to REACT_EDITOR for scriptin
+export REACT_EDITOR="code" # Add VS Code to REACT_EDITOR for scriptin
 
 
 # Aliases
@@ -111,47 +105,17 @@ export REACT_EDITOR="subl" # Add Sublimt Text to REACT_EDITOR for scriptin
 alias h="heroku"
 alias enva="source env/bin/activate"
 
-alias ni="npm install"
-alias ns="npm start"
-alias nb="npm run build"
-alias nw="npm run watch"
-alias nt="npm test"
-alias nj="npm run jest"
+alias ys="yarn start"
+alias yb="yarn build"
+alias yw="yarn watch"
+alias yt="yarn test"
+alias yj="yarn jest"
 
 alias nvmc="nvm current"
-
-alias emulator="/Users/manos/Library/Android/sdk/tools/emulator @Nexus4"
-
-
-# Catfish
-export CATFISH_HOSTNAME_OVERRIDE="localhost"
-alias catfish-start="~/Projects/catfish/start.command"
-
-ctp() {
-  if [[ $@ == "start" ]]; then
-      command ctf project start
-  elif [[ $@ == "stop" ]]; then
-      command ctf project stop
-  elif [[ $@ == "restart" ]]; then
-      command ctf project restart
-  elif [[ $@ == "status" ]]; then
-      command ctf project status
-  elif [[ $@ == "stop" ]]; then
-      command ctf project stop
-  elif [[ $@ == "logs" ]]; then
-      command ctf project logs
-  elif [[ $@ == "shell" ]]; then
-      command ctf project run -- python manage.py shell
-  elif [[ $@ == "migrate" ]]; then
-      command ctf project run -- python manage.py migrate
-  else
-      command ctf project "$@"
-  fi
-}
+alias nvmu="nvm use"
 
 
-# GitHub Personal Token (Mostly - Catfish)
+# NVM
 
-if [ -f ~/.github_token ]; then
-    export GITHUB_TOKEN=`cat ~/.github_token`
-fi
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
