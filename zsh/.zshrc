@@ -99,6 +99,7 @@ source $ZSH/oh-my-zsh.sh
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export REACT_EDITOR="code" # Add VS Code to REACT_EDITOR for scriptin
 
 
@@ -107,11 +108,9 @@ export REACT_EDITOR="code" # Add VS Code to REACT_EDITOR for scriptin
 alias h="heroku"
 alias enva="source env/bin/activate"
 
+alias y="yarn"
 alias ys="yarn start"
-alias yb="yarn build"
-alias yw="yarn watch"
 alias yt="yarn test"
-alias yj="yarn jest"
 
 alias nvmc="nvm current"
 alias nvmu="nvm use"
