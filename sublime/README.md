@@ -12,21 +12,13 @@ File: `/Users/manos/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 	[
 		"All Autocomplete",
 		"AutoFileName",
-		"Babel",
-		"Babel Snippets",
 		"ColorPicker",
-		"CSSEdit Group support",
 		"GitGutter",
-		"HyperClick",
 		"JsPrettier",
-		"LESS",
 		"Package Control",
-		"Sass",
 		"SideBarEnhancements",
-		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
-		"SublimeLinter-contrib-sass-lint",
-		"SublimeLinter-flake8"
+		"Theme - Spacegray",
+		"TypeScript"
 	]
 }
 ```
