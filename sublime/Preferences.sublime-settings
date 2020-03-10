@@ -1,43 +1,34 @@
 {
 	"binary_file_patterns":
 	[
-		"migrations",
-		"node_modules/*",
+		"__snapshots__/*",
+		"build/*",
 		"collected-static/*",
 		"coverage/*",
-		"htmlcov/*",
-		"build/*",
 		"dist/*",
-		"__snapshots__/*",
 		"env/*",
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
-		"*.dds",
-		"*.ico",
-		"*.eot",
-		"*.pdf",
-		"*.swf",
-		"*.jar",
-		"*.zip"
+		"htmlcov/*",
+		"migrations",
+		"node_modules/*"
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Source Code Pro",
+	"font_face": "Menlo, Monaco, 'Courier New', monospace",
 	"font_options":
 	[
 		"no_round"
 	],
-	"font_size": 15,
+	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"spacegray_fileicons": true,
+	"spacegray_sidebar_font_large": true,
+	"spacegray_tabs_font_large": true,
+	"spacegray_tabs_xlarge": true,
 	"tab_size": 2,
-	"theme": "Default.sublime-theme",
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
