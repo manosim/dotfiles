@@ -12,6 +12,7 @@ File: `/Users/manos/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 	[
 		"All Autocomplete",
 		"AutoFileName",
+		"Babel",
 		"ColorPicker",
 		"GitGutter",
 		"JsPrettier",
