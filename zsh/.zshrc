@@ -97,11 +97,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Exports - User configuration
 
-export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 export REACT_EDITOR="code" # Add VS Code to REACT_EDITOR for scriptin
-
 
 # Aliases
 
@@ -109,14 +106,25 @@ alias h="heroku"
 alias enva="source env/bin/activate"
 
 alias y="yarn"
-alias ys="yarn start"
-alias yt="yarn test"
-
-alias nvmc="nvm current"
-alias nvmu="nvm use"
-
+alias yw="yarn workspace"
 
 # NVM
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Yarn
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# iTerm Variables
+# Install via iTerm > Install Term Integration
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
+
+iterm2_print_user_vars() {
+  iterm2_set_user_var nodeVersion $(node --version)
+}
+
+PROMPT='%{$fg[blue]%}%B%c >%b%{$reset_color%} '
