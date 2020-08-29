@@ -10,27 +10,21 @@
 ### Software (Personal & Work)
 
 - [ ] 1Password (App Store)
-- [ ] Airmail (App Store)
 - [ ] Magnet (App Store)
 - [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
-- [ ] Keynote (App Store)
-- [ ] Numbers (App Store)
-- [ ] Pages (App Store)
 - [ ] Spotify [+](http://www.spotify.com/)
 - [ ] The Unarchiver (App Store)
-- [ ] Wunderlist (App Store)
+- [ ] Notion [+](https://www.notion.so/desktop)
 
 ---
 
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
-- [ ] Cyberduck
-- [ ] Daily - Time Tracking (App Store)
 - [ ] Daisy Disk (App Store)
 - [ ] Dropbox [+](https://dropbox.com/)
 - [ ] Gitify
 - [ ] Github Desktop [+](https://desktop.github.com/)
-- [ ] iTerm (with [Meslo Font](https://github.com/andreberg/Meslo-Font)) [+](https://www.iterm2.com/)
-- [ ] Sublime Text [+](http://www.sublimetext.com/)
+- [ ] iTerm [+](https://www.iterm2.com/)
+- [ ] VSCode [+](vscode themes)
 - [ ] Paw [+](https://paw.cloud)
 - [ ] Postgres App [+](http://postgresapp.com/)
 - [ ] Slack [+](https://slack.com/)
@@ -43,18 +37,15 @@
 
     xcode-select --install
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-    git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-
-    touch ~/.zprofile
-    touch ~/.github_token
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 
 ### NVM
 
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
-    nvm install 6
-    npm install -g react-native-cli react-devtools
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+    nvm install 10
     curl -o- -L https://yarnpkg.com/install.sh | bash
+    yarn global add react-native-cli react-devtools
 
 
 ### Homebrew
@@ -67,7 +58,6 @@
     brew install htop
     brew install redis
     brew install mysql
-    brew install pyenv
     brew install watchman
     brew install heroku/brew/heroku
     brew install getsentry/tools/sentry-cli
@@ -75,4 +65,3 @@
     brew cask install android-platform-tools
     brew cask install facebook-ios-sdk
     brew cask install fastlane
-    brew cask install keepingyouawake
