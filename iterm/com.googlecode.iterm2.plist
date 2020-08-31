@@ -384,7 +384,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop</string>
+	<string>~/Projects/dotfiles/iterm</string>
 	<key>NSNavLastUserSetHideExtensionButtonState</key>
 	<true/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
@@ -1483,7 +1483,7 @@
 		<key>screenFrame</key>
 		<string>{{-1440, 540}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{-773, 1092}</string>
+		<string>{-1188, 1145}</string>
 	</dict>
 	<key>NoSyncInstallUtilities</key>
 	<false/>
@@ -2293,7 +2293,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/manos/Dropbox/Software/iTerm</string>
+	<string>/Users/manos/Projects/dotfiles/iterm</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
