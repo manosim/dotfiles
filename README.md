@@ -3,9 +3,6 @@ Just Dotfiles
 
 ## Structure
 
-### `/fonts` [+](fonts)
-A couple of fonts that can't do without.
-
 ### `/iterm` [+](iterm)
 Setup of iTerm. Settings, colors schemes and more.
 
@@ -24,24 +21,22 @@ The settings for `zsh` - `oh-my-zsh`.
 ### Software (Personal & Work)
 
 - [ ] 1Password (App Store)
-- [ ] Magnet (App Store)
-- [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
-- [ ] Spotify [+](http://www.spotify.com/)
-- [ ] The Unarchiver (App Store)
-- [ ] Notion [+](https://www.notion.so/desktop)
-
----
-
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
-- [ ] Daisy Disk (App Store)
+- [ ] Dato (App Store)
 - [ ] Dropbox [+](https://dropbox.com/)
-- [ ] Gitify
-- [ ] Github Desktop [+](https://desktop.github.com/)
+- [ ] Fork [+](https://git-fork.com/)
+- [ ] Gitify [+](https://www.gitify.io/)
+- [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
 - [ ] iTerm [+](https://www.iterm2.com/)
-- [ ] VSCode [+](vscode themes)
+- [ ] Krisp [+](https://krisp.ai/privacy-policy/)
+- [ ] Notion [+](https://www.notion.so/desktop)
 - [ ] Paw [+](https://paw.cloud)
 - [ ] Postgres App [+](http://postgresapp.com/)
+- [ ] Sketch [+](https://sketch.com/)
 - [ ] Slack [+](https://slack.com/)
+- [ ] Spotify [+](http://www.spotify.com/)
+- [ ] VSCode [+](vscode themes)
+- [ ] Zoom [+](https://zoom.us/)
 
 ---
 
@@ -50,32 +45,28 @@ The settings for `zsh` - `oh-my-zsh`.
 ### Oh my zsh
 
     xcode-select --install
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 
 ### NVM
 
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-    nvm install 10
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+    nvm install 12
     curl -o- -L https://yarnpkg.com/install.sh | bash
-    yarn global add react-native-cli react-devtools
 
 
 ### Homebrew
 
     # Install Homebrew
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
     # Install Specifics
     brew update
     brew install htop
-    brew install redis
-    brew install mysql
     brew install watchman
-    brew install heroku/brew/heroku
-    brew install getsentry/tools/sentry-cli
+    brew tap heroku/brew && brew install heroku
 
-    brew cask install android-platform-tools
-    brew cask install facebook-ios-sdk
+    brew cask install kap
+    brew cask install rectangle
     brew cask install fastlane
