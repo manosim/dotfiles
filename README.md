@@ -22,10 +22,8 @@ The settings for `zsh` - `oh-my-zsh`.
 
 - [ ] 1Password (App Store)
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
-- [ ] Dato (App Store)
 - [ ] Dropbox [+](https://dropbox.com/)
 - [ ] Fork [+](https://git-fork.com/)
-- [ ] Gitify [+](https://www.gitify.io/)
 - [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
 - [ ] iTerm [+](https://www.iterm2.com/)
 - [ ] Krisp [+](https://krisp.ai/privacy-policy/)
@@ -38,22 +36,12 @@ The settings for `zsh` - `oh-my-zsh`.
 - [ ] VSCode [+](vscode themes)
 - [ ] Zoom [+](https://zoom.us/)
 
----
-
-- [ ] Oh my ZSH [+](https://github.com/robbyrussell/oh-my-zsh)
 
 ### Oh my zsh
 
     xcode-select --install
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-
-### NVM
-
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
-    nvm install 12
-    curl -o- -L https://yarnpkg.com/install.sh | bash
 
 
 ### Homebrew
@@ -65,8 +53,16 @@ The settings for `zsh` - `oh-my-zsh`.
     brew update
     brew install htop
     brew install watchman
+    brew install fastlane
     brew tap heroku/brew && brew install heroku
 
-    brew cask install kap
-    brew cask install rectangle
-    brew cask install fastlane
+    brew install --cask gitify
+    brew install --cask kap
+    brew install --cask rectangle
+
+
+### NVM
+
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+    nvm install 12
+    curl -o- -L https://yarnpkg.com/install.sh | bash
