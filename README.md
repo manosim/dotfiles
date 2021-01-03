@@ -6,6 +6,9 @@ Just Dotfiles
 ### `/iterm` [+](iterm)
 Setup of iTerm. Settings, colors schemes and more.
 
+### `/keyboard` [+](keyboard)
+Keyboard configuration for Anne Pro 2.
+
 ### `/zsh` [+](zsh)
 The settings for `zsh` - `oh-my-zsh`.
 
