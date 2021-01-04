@@ -14,12 +14,37 @@ The settings for `zsh` - `oh-my-zsh`.
 
 ## Setup & Software
 
-### Initialize
 
-1. Bring OS up to date.
-2. Install XCode (App Store)
-3. Install Command Line Developer Tools [+](https://developer.apple.com/downloads/)
+### Oh my zsh
 
+    xcode-select --install
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+
+### Homebrew
+
+    # Install Homebrew
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+    brew install htop
+    brew install watchman
+    brew install cocoapods
+    brew install fastlane
+
+    brew tap AdoptOpenJDK/openjdk && brew install --cask adoptopenjdk8
+    brew tap heroku/brew && brew install heroku
+
+    brew install --cask gitify
+    brew install --cask kap
+    brew install --cask rectangle
+
+
+### NVM
+
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+    nvm install 12
+    curl -o- -L https://yarnpkg.com/install.sh | bash
 
 ### Software (Personal & Work)
 
@@ -39,33 +64,3 @@ The settings for `zsh` - `oh-my-zsh`.
 - [ ] VSCode [+](vscode themes)
 - [ ] Zoom [+](https://zoom.us/)
 
-
-### Oh my zsh
-
-    xcode-select --install
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-
-### Homebrew
-
-    # Install Homebrew
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-    # Install Specifics
-    brew update
-    brew install htop
-    brew install watchman
-    brew install fastlane
-    brew tap heroku/brew && brew install heroku
-
-    brew install --cask gitify
-    brew install --cask kap
-    brew install --cask rectangle
-
-
-### NVM
-
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
-    nvm install 12
-    curl -o- -L https://yarnpkg.com/install.sh | bash
