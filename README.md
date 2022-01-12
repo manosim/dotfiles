@@ -27,24 +27,25 @@ The settings for `zsh` - `oh-my-zsh`.
     # Install Homebrew
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-    brew install htop
-    brew install watchman
-    brew install cocoapods
-    brew install fastlane
-
-    brew tap AdoptOpenJDK/openjdk && brew install --cask adoptopenjdk8
+    brew install htop watchman cocoapods fastlane
+    brew install --cask gitify kap rectangle
     brew tap heroku/brew && brew install heroku
-
-    brew install --cask gitify
-    brew install --cask kap
-    brew install --cask rectangle
 
 
 ### NVM
 
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
-    nvm install 12
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    nvm install 16
     curl -o- -L https://yarnpkg.com/install.sh | bash
+
+
+### Installing Java for Android
+Read more in [this article](https://shift.infinite.red/dont-use-the-wrong-jdk-for-react-native-if-you-re-using-an-m1-mac-252533dd47a2).
+
+    curl -s "https://get.sdkman.io" | bash
+    sdk install java 8.0.312-zulu
+    # Then set Gradle to use the right JDK in Android Studio
+
 
 ### Software (Personal & Work)
 
@@ -54,7 +55,7 @@ The settings for `zsh` - `oh-my-zsh`.
 - [ ] Fork [+](https://git-fork.com/)
 - [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
 - [ ] iTerm [+](https://www.iterm2.com/)
-- [ ] Krisp [+](https://krisp.ai/privacy-policy/)
+- [ ] Krisp [+](https://krisp.ai/)
 - [ ] Notion [+](https://www.notion.so/desktop)
 - [ ] Paw [+](https://paw.cloud)
 - [ ] Postgres App [+](http://postgresapp.com/)
