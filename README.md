@@ -34,7 +34,7 @@ The settings for `zsh` - `oh-my-zsh`.
 
 ### NVM
 
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
     nvm install 16
     curl -o- -L https://yarnpkg.com/install.sh | bash
 
@@ -51,14 +51,14 @@ Read more in [this article](https://shift.infinite.red/dont-use-the-wrong-jdk-fo
 
 - [ ] 1Password (App Store)
 - [ ] Android Studio [+](http://developer.android.com/tools/studio/)
+- [ ] Arc Browser [+](https://releases.arc.net/release/Arc-latest.dmg)
 - [ ] Dropbox [+](https://dropbox.com/)
+- [ ] Figma [+](https://figma.com/)
 - [ ] Fork [+](https://git-fork.com/)
-- [ ] Google Chrome [+](http://www.google.co.uk/chrome/)
 - [ ] iTerm [+](https://www.iterm2.com/)
-- [ ] Krisp [+](https://krisp.ai/)
-- [ ] Notion [+](https://www.notion.so/desktop)
 - [ ] Paw [+](https://paw.cloud)
 - [ ] Postgres App [+](http://postgresapp.com/)
+- [ ] Postico (App Store)
 - [ ] Sketch [+](https://sketch.com/)
 - [ ] Slack [+](https://slack.com/)
 - [ ] Spotify [+](http://www.spotify.com/)
