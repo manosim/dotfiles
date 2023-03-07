@@ -34,17 +34,16 @@ The settings for `zsh` - `oh-my-zsh`.
 
 ### NVM
 
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
-    nvm install 16
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+    nvm install 18
     curl -o- -L https://yarnpkg.com/install.sh | bash
 
 
 ### Installing Java for Android
-Read more in [this article](https://shift.infinite.red/dont-use-the-wrong-jdk-for-react-native-if-you-re-using-an-m1-mac-252533dd47a2).
+Read more in the react-native [docs](https://reactnative.dev/docs/environment-setup).
 
-    curl -s "https://get.sdkman.io" | bash
-    sdk install java 8.0.312-zulu
-    # Then set Gradle to use the right JDK in Android Studio
+    brew tap homebrew/cask-versions
+    brew install --cask zulu11
 
 
 ### Software (Personal & Work)
@@ -62,4 +61,3 @@ Read more in [this article](https://shift.infinite.red/dont-use-the-wrong-jdk-fo
 - [ ] VSCode [+](https://code.visualstudio.com/download)
 - [ ] Xcode [+](https://developer.apple.com/download/all/?q=Xcode)
 - [ ] Zoom [+](https://zoom.us/download)
-
