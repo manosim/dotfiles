@@ -6,8 +6,14 @@ Just Dotfiles
 ### `/iterm` [+](iterm)
 Setup of iTerm. Settings, colors schemes and more.
 
+### `/homebrew` [+](homebrew)
+Configuration of homebrew using Brewfile.
+
 ### `/keyboard` [+](keyboard)
 Keyboard configuration for Anne Pro 2.
+
+### `/rectangle` [+](rectangle)
+The config for **rectangle**. Install via Brewfile.
 
 ### `/zsh` [+](zsh)
 The settings for `zsh` - `oh-my-zsh`.
@@ -27,10 +33,7 @@ The settings for `zsh` - `oh-my-zsh`.
     # Install Homebrew
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-    brew install htop watchman cocoapods fastlane
-    brew install --cask gitify kap rectangle
-    brew tap heroku/brew && brew install heroku
-
+    brew bundle --no-lock --file ~/Projects/dotfiles/homebrew/Brewfile
 
 ### NVM
 

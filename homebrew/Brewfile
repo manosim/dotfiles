@@ -1,0 +1,21 @@
+# Tap
+tap "heroku/brew"
+
+# Packages
+brew "cocoapods"
+brew "heroku"
+brew "htop"
+brew "watchman"
+
+# Casks
+cask "1password"
+cask "arc"
+cask "figma"
+cask "insomnia"
+cask "iterm2"
+cask "kap"
+cask "rectangle"
+cask "slack"
+cask "spotify"
+cask "visual-studio-code"
+cask "zoom"
