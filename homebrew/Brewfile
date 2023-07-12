@@ -1,16 +1,15 @@
-# Tap
-tap "heroku/brew"
-
 # Packages
 brew "cocoapods"
 brew "heroku"
 brew "htop"
+brew "pnpm"
 brew "watchman"
 
 # Casks
 cask "1password"
 cask "arc"
 cask "figma"
+cask "fork"
 cask "insomnia"
 cask "iterm2"
 cask "kap"
