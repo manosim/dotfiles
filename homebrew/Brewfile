@@ -1,10 +1,8 @@
-# Tap
-tap "heroku/brew"
-
 # Packages
 brew "cocoapods"
 brew "heroku"
 brew "htop"
+brew "pnpm"
 brew "watchman"
 
 # Casks
