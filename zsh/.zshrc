@@ -112,11 +112,8 @@ export REACT_EDITOR="code" # Add VS Code to REACT_EDITOR for scriptin
 
 # Aliases
 
-alias h="heroku"
+alias p="pnpm"
 alias enva="source env/bin/activate"
-
-alias y="yarn"
-alias yw="yarn workspace"
 
 # NVM
 
